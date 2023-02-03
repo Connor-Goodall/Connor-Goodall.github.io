@@ -1,32 +1,17 @@
-* {
-    box-sizing: border-box;
+.my-btn { 
+    border-color:#800020; 
+    background-color: #800020;
 }
-.row{
-    margin: 8px - 16px;
+
+.my-btn:hover { 
+    border-color: #800020; 
+    background-color: #800020; 
 }
-.row, .row > .column {
-    padding: 8px;
+.my-btn:focus {
+    border-color: #800020; 
+    background-color: #800020;  
 }
-.column{
-    float:left;
-    width: 33%;
-}
-.row:after{
-    content: "";
-    display: table;
-    clear: both;
-}
-.content {
-    background-color: white;
-    padding: 10px;
-}
-@media screen and (max-width: 900px){
-    .column{
-        width: 50%;
-    }
-}
-@media screen and (max-width: 600px){
-    .column{
-        width: 100%
-    }
+.my-btn:active{
+    border-color: #800020; 
+    background-color: #800020; 
 }
