@@ -1,17 +1,17 @@
 .my-btn{ 
-    border-color:#ad4962; 
-    background-color: #ad4962;
+    border-color:#ea2556; 
+    background-color: #ea2556;
 }
 
 .my-btn:hover{ 
-    border-color:#ad4962; 
-    background-color: #ad4962; 
+    border-color:#ea2556; 
+    background-color: #ea2556; 
 }
 .my-btn:focus{
-    border-color:#ad4962; 
-    background-color: #ad4962;
+    border-color:#ea2556; 
+    background-color: #ea2556;
 }
 .my-btn:active{
-    border-color:#ad4962; 
-    background-color: #ad4962;
+    border-color:#ea2556; 
+    background-color: #ea2556;
 }
