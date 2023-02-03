@@ -12,8 +12,8 @@
     background-color: #b21039;
 }
 .line{
+    color:#666666;
     font-size: 45px;
-    text-align: center;
     font-weight: bold;
     padding-bottom: 10px;
     border-bottom: 3.1px solid #666666;
