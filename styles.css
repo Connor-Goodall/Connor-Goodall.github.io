@@ -1,13 +1,13 @@
 .my-btn{ 
-    background-color: #720c26;
+    background-color: #b21039;
 }
 
 .my-btn:hover{ 
-    background-color: #720c26; 
+    background-color: #b21039; 
 }
 .my-btn:focus{
-    background-color: #720c26;
+    background-color: #b21039;
 }
 .my-btn:active{
-    background-color: #720c26;
+    background-color: #b21039;
 }
