@@ -1,13 +1,13 @@
-.my-btn { 
+.my-btn{ 
     border-color:#800020; 
     background-color: #800020;
 }
 
-.my-btn:hover { 
+.my-btn:hover{ 
     border-color: #800020; 
     background-color: #800020; 
 }
-.my-btn:focus {
+.my-btn:focus{
     border-color: #800020; 
     background-color: #800020;  
 }
