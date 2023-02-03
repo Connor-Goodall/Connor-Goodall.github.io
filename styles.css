@@ -12,7 +12,8 @@
     background-color: #b21039;
 }
 .line{
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     color:#666666;
     font-weight: bold;
     padding-bottom: 10px;
