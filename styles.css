@@ -11,6 +11,9 @@
 .my-btn:active{
     background-color: #b21039;
 }
-h1{
-    border-bottom: 1px solid #666666;
+.line{
+    padding-bottom: 10px;
+    border-bottom: 3.1px solid #666666;
+    width: fit-content;
+    font-size: 32px;
 }
