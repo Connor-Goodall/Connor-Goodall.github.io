@@ -12,6 +12,7 @@
     background-color: #b21039;
 }
 .line{
+    display: block;
     margin-left: auto;
     margin-right: auto;
     color:#666666;
