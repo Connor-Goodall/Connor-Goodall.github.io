@@ -34,23 +34,23 @@
 
 .connection-btn{
     border-color: #666666;
-    size: 16px;
+    size: 32px;
 }
 .connection-btn:hover{
     border-color: #666666;
     background-color: #666666;
     color: #FFFFFF;
-    size: 16px;
+    size: 32px;
 }
 .connection-btn:focus{
     border-color: #666666;
     background-color: #666666;
     color: #FFFFFF;
-    size: 16px;
+    size: 32px;
 }
 .connection-btn:active{
     border-color: #666666;
     background-color: #666666;
     color: #FFFFFF;
-    size: 16px;
+    size: 32px;
 }
