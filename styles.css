@@ -31,3 +31,11 @@
 .fab {
     color: #000000;
 }
+
+.connection-btn{
+    border-color: #666666;
+}
+.connection-btn:hover{
+    border-color: #666666;
+    background-color: #666666;
+}
