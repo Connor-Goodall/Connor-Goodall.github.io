@@ -36,7 +36,7 @@
     border-width: medium;
     border-radius: 50px;
     border-color: #666666;
-    padding: 14px 40px;
+    padding: 14px 50px;
     font-size: 20px;
 }
 .connection-btn:hover{
@@ -45,7 +45,7 @@
     border-color: #666666;
     background-color: #666666;
     color: #FFFFFF;
-    padding: 14px 40px;
+    padding: 14px 50px;
     font-size: 20px;
 }
 .connection-btn:focus{
@@ -54,7 +54,7 @@
     border-color: #666666;
     background-color: #666666;
     color: #FFFFFF;
-    padding: 14px 40px;
+    padding: 14px 50px;
     font-size: 20px;
 }
 .connection-btn:active{
@@ -63,6 +63,6 @@
     border-color: #666666;
     background-color: #666666;
     color: #FFFFFF;
-    padding: 14px 40px;
+    padding: 14px 50px;
     font-size: 20px;
 }
