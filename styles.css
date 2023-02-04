@@ -26,7 +26,7 @@
     cursor: pointer;
 }
 .fa-github:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
-    color: #FFFFFF;
+    color: #008000;
 }
 .fab {
     color: #000000;
@@ -34,26 +34,23 @@
 
 .connection-btn{
     border-color: #666666;
-    font-size: 25px;
+    padding: 20px 40px;
 }
 .connection-btn:hover{
     border-color: #666666;
     background-color: #666666;
-    font-size: 25px;
+    color: #FFFFFF;
+    padding: 20px 40px;
 }
 .connection-btn:focus{
     border-color: #666666;
     background-color: #666666;
-    font-size: 25px;
+    color: #FFFFFF;
+    padding: 20px 40px;
 }
 .connection-btn:active{
     border-color: #666666;
     background-color: #666666;
-    font-size: 25px;
-}
-.connection-text{
-    color: #000000; 
-}
-.connection-text:hover{
     color: #FFFFFF;
+    padding: 20px 40px;
 }
