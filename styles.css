@@ -25,18 +25,22 @@
     font-size: 36px;
     cursor: pointer;
 }
-.fa-github:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+.fa-github:hover,.fa-file-pdf:hover,.fa-twitter:hover,.fa-linkedin:hover{
     color: #FFFFFF;
 }
 .fab {
     color: #000000;
 }
 
+.far{
+    color: #000000;  
+}
+
 .connection-btn{
     border-width: medium;
     border-radius: 50px;
     border-color: #666666;
-    padding: 14px 50px;
+    padding: 14px 60px;
     font-size: 20px;
 }
 .connection-btn:hover{
@@ -45,7 +49,7 @@
     border-color: #666666;
     background-color: #666666;
     color: #FFFFFF;
-    padding: 14px 50px;
+    padding: 14px 60px;
     font-size: 20px;
 }
 .connection-btn:focus{
@@ -54,7 +58,7 @@
     border-color: #666666;
     background-color: #666666;
     color: #FFFFFF;
-    padding: 14px 50px;
+    padding: 14px 60px;
     font-size: 20px;
 }
 .connection-btn:active{
@@ -63,6 +67,6 @@
     border-color: #666666;
     background-color: #666666;
     color: #FFFFFF;
-    padding: 14px 50px;
+    padding: 14px 60px;
     font-size: 20px;
 }
