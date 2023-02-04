@@ -33,11 +33,15 @@
 }
 
 .connection-btn{
+    border-width: medium;
+    border-radius: 50px;
     border-color: #666666;
     padding: 14px 40px;
     font-size: 20px;
 }
 .connection-btn:hover{
+    border-width: medium;
+    border-radius: 50px;
     border-color: #666666;
     background-color: #666666;
     color: #FFFFFF;
@@ -45,6 +49,8 @@
     font-size: 20px;
 }
 .connection-btn:focus{
+    border-width: medium;
+    border-radius: 50px;
     border-color: #666666;
     background-color: #666666;
     color: #FFFFFF;
@@ -52,6 +58,8 @@
     font-size: 20px;
 }
 .connection-btn:active{
+    border-width: medium;
+    border-radius: 50px;
     border-color: #666666;
     background-color: #666666;
     color: #FFFFFF;
