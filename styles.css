@@ -25,7 +25,7 @@
     font-size: 36px;
     cursor: pointer;
 }
-.fa-github:hover,.fa-file-pdf:hover,.fa-envelope-open{
+.fa-github:hover,.fa-file-pdf:hover,.fa-envelope-open:hover{
     color: #FFFFFF;
 }
 .fab {
