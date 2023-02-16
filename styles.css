@@ -101,7 +101,8 @@
 .skills{
     max-width: 68.75rem;
     margin: auto;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 2.5rem;
 }
 .skill-header{
