@@ -124,7 +124,6 @@
 @media screen and (max-width: 420px){
     .about{
         flex-direction: column;
-        gap: 0;
     }
     .about-img{
         height: 15rem;
