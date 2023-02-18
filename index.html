@@ -211,12 +211,13 @@ background-color: #800020;">
 <script>
     function scrollFunction(){
         document.documentElement.style.scrollBehavior = "smooth";
-    }
+    };
+    
     $(document).ready(function () {
     $("nav").find("li").on("click", "a", function () {
         $('.navbar-collapse.in').collapse('hide');
     });
-});
+    });
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
