@@ -212,13 +212,10 @@ background-color: #800020;">
     function scrollFunction(){
         document.documentElement.style.scrollBehavior = "smooth";
     }
-    $('.navbar-nav>li>a').on('click', function(){
-        $('.navbar-collapse').collapse('hide');
-    });
 </script>
 <script>
     $(document).ready(function () {
-        $('.nav-link').on('click',function() {
+        $('.nav-link py-3 px-0 px-lg-3 rounded text-white').on('click',function() {
             $('.navbar-collapse').collapse('hide');
         });
     });
