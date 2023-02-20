@@ -26,16 +26,16 @@ background-color: #800020;">
         <div class = "collapse navbar-collapse" id = "navmenu">
             <ul class = "navbar-nav ms-auto">
                 <li class = "nav-item mx-0 mx-lg-1 active">
-                    <a href = "#about" class="nav-link py-3 px-0 px-lg-3 rounded text-white" data-toggle="collapse" data-target="#navmenu, #about" onclick = "scrollFunction()">About</a>
+                    <a href = "#about" class="nav-link py-3 px-0 px-lg-3 rounded text-white" onclick = "scrollFunction()">About</a>
                 </li>
                 <li class = "nav-item mx-0 mx-lg-1 active">
-                    <a href = "#skills" class="nav-link py-3 px-0 px-lg-3 rounded text-white" data-toggle="collapse" data-target="#navmenu, #skills" onclick = "scrollFunction()">Skills</a>
+                    <a href = "#skills" class="nav-link py-3 px-0 px-lg-3 rounded text-white"  onclick = "scrollFunction()">Skills</a>
                 </li>
                 <li class = "nav-item mx-0 mx-lg-1 active">
-                    <a href = "#portfolio" class = "nav-link py-3 px-0 px-lg-3 rounded text-white" data-toggle="collapse" data-target="#navmenu, #portfolio" onclick = "scrollFunction()">Portfolio</a>
+                    <a href = "#portfolio" class = "nav-link py-3 px-0 px-lg-3 rounded text-white"  onclick = "scrollFunction()">Portfolio</a>
                 </li>
                 <li class = "nav-item mx-0 mx-lg-1 active">
-                    <a href = "#connect" class = "nav-link py-3 px-0 px-lg-3 rounded text-white" data-toggle="collapse" data-target="#navmenu, #connect" onclick = "scrollFunction()">Connect/Contact</a>
+                    <a href = "#connect" class = "nav-link py-3 px-0 px-lg-3 rounded text-white"  onclick = "scrollFunction()">Connect/Contact</a>
                 </li>
             </ul>
         </div>
@@ -208,11 +208,16 @@ background-color: #800020;">
     </div>
     <br>
 </footer>
+
 <script>
-    function scrollFunction(){
-        document.documentElement.style.scrollBehavior = "smooth";
-    };
+    $(document).ready(function () {
+        $("nav").find("li").on("click", "a", function () {
+            $('.navbar-collapse.in').collapse('hide');
+        });
+    });
 </script>
+
+
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
