@@ -213,15 +213,6 @@ background-color: #800020;">
         document.documentElement.style.scrollBehavior = "smooth";
     }
 </script>
-<script>
-    $(document).ready(function () { 
-        $(document).click(function () {
-        // if($(".navbar-collapse").hasClass("in")){
-            $('#navmenu').collapse('hide');
-        // }
-        });
-    });
-</script>
 
 
 
@@ -233,3 +224,11 @@ background-color: #800020;">
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function () {
+        $("nav").find("li").on("click", "a", function () {
+            $('.navbar-collapse.in').collapse('hide');
+        });
+    });
+    </script>
+    
